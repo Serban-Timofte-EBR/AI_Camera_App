@@ -1,0 +1,32 @@
+# Global ignores
+.DS_Store
+Thumbs.db
+
+# Flutter-specific ignores
+ai_camera/.dart_tool/
+ai_camera/.idea/
+ai_camera/.vscode/
+ai_camera/.packages
+ai_camera/build/
+ai_camera/flutter_export_environment.sh
+ai_camera/generated_plugin_registrant.dart
+ai_camera/.flutter-plugins
+ai_camera/.flutter-plugins-dependencies
+ai_camera/.metadata
+ai_camera/pubspec.lock
+ai_camera/test-output/
+
+# Python-specific ignores
+backend/__pycache__/
+backend/*.py[cod]
+backend/env/
+backend/venv/
+backend/.env
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.vscode/
+
+# Logs and temp files
+**/logs/
+**/*.log
+**/tmp/
